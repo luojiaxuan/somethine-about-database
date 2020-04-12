@@ -4,10 +4,10 @@
 
 ps:原作者写的这个mysql1000行有些地方不大对劲，正好这段时间在准备面试，我会对照复习并纠错，弄出个1000行v2.0
 
-所用系统: ==Ubuntu18.04==
-MySQL版本：==5.7==
+所用系统: Ubuntu18.04
+MySQL版本: 5.7
 
-\```sql
+```sql
 /* 启动MySQL */
 service start mysql   
 
@@ -1036,4 +1036,4 @@ OPTIMIZE [LOCAL | NO_WRITE_TO_BINLOG] TABLE tbl_name [, tbl_name] ...
 -- 5. CMD命令行内的语句结束符可以为 ";", "\G", "\g"，仅影响显示结果。其他地方还是用分号结束。delimiter 可修改当前对话的语句结束符。
 -- 6. SQL对大小写不敏感
 -- 7. 清除已有语句：\c
-\```
+```
